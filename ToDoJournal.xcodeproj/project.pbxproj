@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B22600327C24025004A2AA0 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B22600227C24025004A2AA0 /* DateFormatter.swift */; };
 		3B48134327BE24ED0074DB5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48134227BE24ED0074DB5B /* AppDelegate.swift */; };
 		3B48134527BE24ED0074DB5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48134427BE24ED0074DB5B /* SceneDelegate.swift */; };
-		3B48134727BE24ED0074DB5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48134627BE24ED0074DB5B /* ViewController.swift */; };
+		3B48134727BE24ED0074DB5B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48134627BE24ED0074DB5B /* ProfileViewController.swift */; };
 		3B48134A27BE24ED0074DB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B48134827BE24ED0074DB5B /* Main.storyboard */; };
 		3B48134D27BE24ED0074DB5B /* ToDoJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B48134B27BE24ED0074DB5B /* ToDoJournal.xcdatamodeld */; };
 		3B48134F27BE24EE0074DB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B48134E27BE24EE0074DB5B /* Assets.xcassets */; };
 		3B48135227BE24EE0074DB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B48135027BE24EE0074DB5B /* LaunchScreen.storyboard */; };
+		3B48135F27BE286E0074DB5B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48135E27BE286E0074DB5B /* CoreDataStack.swift */; };
+		3B48136127BE28E60074DB5B /* Category+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48136027BE28E60074DB5B /* Category+Convenience.swift */; };
+		3B48136327BE29010074DB5B /* Item+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48136227BE29010074DB5B /* Item+Convenience.swift */; };
+		3B48136627BE2AF10074DB5B /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48136527BE2AF10074DB5B /* CategoryController.swift */; };
+		3B48136827BE2B0A0074DB5B /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48136727BE2B0A0074DB5B /* ItemController.swift */; };
+		3B48136A27BE375B0074DB5B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48136927BE375B0074DB5B /* CategoryViewController.swift */; };
+		3B83EE2127BF63DE0093E3E6 /* ItemsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83EE2027BF63DE0093E3E6 /* ItemsListTableViewController.swift */; };
+		3B83EE2327BF65F50093E3E6 /* ItemInCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83EE2227BF65F50093E3E6 /* ItemInCategoryTableViewCell.swift */; };
+		3B83EE2527BF9D720093E3E6 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B83EE2427BF9D720093E3E6 /* ItemDetailViewController.swift */; };
+		3B95189A27BE40F000730C31 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B95189927BE40F000730C31 /* CategoryTableViewCell.swift */; };
+		3BE5209327C0EFAF0010C426 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5209227C0EFAF0010C426 /* JournalViewController.swift */; };
+		E025E9E585072D5268D0A0DE /* Pods_ToDoJournal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184663DEECD6F7595C00017C /* Pods_ToDoJournal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184663DEECD6F7595C00017C /* Pods_ToDoJournal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoJournal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B22600227C24025004A2AA0 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		3B48133F27BE24ED0074DB5B /* ToDoJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B48134227BE24ED0074DB5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B48134427BE24ED0074DB5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B48134627BE24ED0074DB5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B48134627BE24ED0074DB5B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3B48134927BE24ED0074DB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B48134C27BE24ED0074DB5B /* ToDoJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoJournal.xcdatamodel; sourceTree = "<group>"; };
 		3B48134E27BE24EE0074DB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B48135127BE24EE0074DB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B48135327BE24EE0074DB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B48135E27BE286E0074DB5B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3B48136027BE28E60074DB5B /* Category+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Convenience.swift"; sourceTree = "<group>"; };
+		3B48136227BE29010074DB5B /* Item+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Convenience.swift"; sourceTree = "<group>"; };
+		3B48136527BE2AF10074DB5B /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		3B48136727BE2B0A0074DB5B /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		3B48136927BE375B0074DB5B /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3B83EE2027BF63DE0093E3E6 /* ItemsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListTableViewController.swift; sourceTree = "<group>"; };
+		3B83EE2227BF65F50093E3E6 /* ItemInCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		3B83EE2427BF9D720093E3E6 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		3B95189927BE40F000730C31 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		3BE5209227C0EFAF0010C426 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		41B65E69D0731B023A0B21C4 /* Pods-ToDoJournal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoJournal.release.xcconfig"; path = "Target Support Files/Pods-ToDoJournal/Pods-ToDoJournal.release.xcconfig"; sourceTree = "<group>"; };
+		C7A2F6DBDC2812AD69E0740D /* Pods-ToDoJournal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoJournal.debug.xcconfig"; path = "Target Support Files/Pods-ToDoJournal/Pods-ToDoJournal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E025E9E585072D5268D0A0DE /* Pods_ToDoJournal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B225FFF27C23F11004A2AA0 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B22600227C24025004A2AA0 /* DateFormatter.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
 		3B48133627BE24ED0074DB5B = {
 			isa = PBXGroup;
 			children = (
 				3B48134127BE24ED0074DB5B /* ToDoJournal */,
 				3B48134027BE24ED0074DB5B /* Products */,
+				BE8FBEE0E28747BF0F941ABE /* Pods */,
+				40A16F45C1341DC5627AF08E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +97,133 @@
 		3B48134127BE24ED0074DB5B /* ToDoJournal */ = {
 			isa = PBXGroup;
 			children = (
-				3B48134227BE24ED0074DB5B /* AppDelegate.swift */,
-				3B48134427BE24ED0074DB5B /* SceneDelegate.swift */,
-				3B48134627BE24ED0074DB5B /* ViewController.swift */,
-				3B48134827BE24ED0074DB5B /* Main.storyboard */,
-				3B48134E27BE24EE0074DB5B /* Assets.xcassets */,
-				3B48135027BE24EE0074DB5B /* LaunchScreen.storyboard */,
-				3B48135327BE24EE0074DB5B /* Info.plist */,
-				3B48134B27BE24ED0074DB5B /* ToDoJournal.xcdatamodeld */,
+				3B225FFF27C23F11004A2AA0 /* HelperFiles */,
+				3B48135B27BE25310074DB5B /* Models */,
+				3B95189727BE40A700730C31 /* Views */,
+				3B48135C27BE253F0074DB5B /* Controllers */,
+				3B48135927BE25030074DB5B /* Resources */,
 			);
 			path = ToDoJournal;
+			sourceTree = "<group>";
+		};
+		3B48135927BE25030074DB5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B48134227BE24ED0074DB5B /* AppDelegate.swift */,
+				3B48134427BE24ED0074DB5B /* SceneDelegate.swift */,
+				3B48134E27BE24EE0074DB5B /* Assets.xcassets */,
+				3B48135327BE24EE0074DB5B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B48135A27BE251E0074DB5B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B48134827BE24ED0074DB5B /* Main.storyboard */,
+				3B48135027BE24EE0074DB5B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B48135B27BE25310074DB5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B48134B27BE24ED0074DB5B /* ToDoJournal.xcdatamodeld */,
+				3B48135E27BE286E0074DB5B /* CoreDataStack.swift */,
+				3B48136027BE28E60074DB5B /* Category+Convenience.swift */,
+				3B48136227BE29010074DB5B /* Item+Convenience.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B48135C27BE253F0074DB5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B48136427BE2AC20074DB5B /* ModelControllers */,
+				3B48135D27BE25500074DB5B /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3B48135D27BE25500074DB5B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5209127C0EF860010C426 /* JournalViewControllers */,
+				3BE5209027C0E9410010C426 /* ProfileViewControllers */,
+				3BE5208F27C0E9000010C426 /* ToDoViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B48136427BE2AC20074DB5B /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B48136527BE2AF10074DB5B /* CategoryController.swift */,
+				3B48136727BE2B0A0074DB5B /* ItemController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		3B95189727BE40A700730C31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B95189827BE40B200730C31 /* CustomViews */,
+				3B48135A27BE251E0074DB5B /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B95189827BE40B200730C31 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3B95189927BE40F000730C31 /* CategoryTableViewCell.swift */,
+				3B83EE2227BF65F50093E3E6 /* ItemInCategoryTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3BE5208F27C0E9000010C426 /* ToDoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B48136927BE375B0074DB5B /* CategoryViewController.swift */,
+				3B83EE2027BF63DE0093E3E6 /* ItemsListTableViewController.swift */,
+				3B83EE2427BF9D720093E3E6 /* ItemDetailViewController.swift */,
+			);
+			path = ToDoViewControllers;
+			sourceTree = "<group>";
+		};
+		3BE5209027C0E9410010C426 /* ProfileViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B48134627BE24ED0074DB5B /* ProfileViewController.swift */,
+			);
+			path = ProfileViewControllers;
+			sourceTree = "<group>";
+		};
+		3BE5209127C0EF860010C426 /* JournalViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5209227C0EFAF0010C426 /* JournalViewController.swift */,
+			);
+			path = JournalViewControllers;
+			sourceTree = "<group>";
+		};
+		40A16F45C1341DC5627AF08E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184663DEECD6F7595C00017C /* Pods_ToDoJournal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8FBEE0E28747BF0F941ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2F6DBDC2812AD69E0740D /* Pods-ToDoJournal.debug.xcconfig */,
+				41B65E69D0731B023A0B21C4 /* Pods-ToDoJournal.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B48135627BE24EE0074DB5B /* Build configuration list for PBXNativeTarget "ToDoJournal" */;
 			buildPhases = (
+				7CB399B23C1B668BF7A0F978 /* [CP] Check Pods Manifest.lock */,
 				3B48133B27BE24ED0074DB5B /* Sources */,
 				3B48133C27BE24ED0074DB5B /* Frameworks */,
 				3B48133D27BE24ED0074DB5B /* Resources */,
+				226756CD2AB240B3036E73F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +294,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		226756CD2AB240B3036E73F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoJournal/Pods-ToDoJournal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoJournal/Pods-ToDoJournal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoJournal/Pods-ToDoJournal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB399B23C1B668BF7A0F978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoJournal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B48133B27BE24ED0074DB5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B48134727BE24ED0074DB5B /* ViewController.swift in Sources */,
+				3B48136A27BE375B0074DB5B /* CategoryViewController.swift in Sources */,
+				3B83EE2127BF63DE0093E3E6 /* ItemsListTableViewController.swift in Sources */,
+				3B48135F27BE286E0074DB5B /* CoreDataStack.swift in Sources */,
+				3B48136827BE2B0A0074DB5B /* ItemController.swift in Sources */,
+				3BE5209327C0EFAF0010C426 /* JournalViewController.swift in Sources */,
+				3B22600327C24025004A2AA0 /* DateFormatter.swift in Sources */,
+				3B48136127BE28E60074DB5B /* Category+Convenience.swift in Sources */,
+				3B48134727BE24ED0074DB5B /* ProfileViewController.swift in Sources */,
 				3B48134D27BE24ED0074DB5B /* ToDoJournal.xcdatamodeld in Sources */,
+				3B95189A27BE40F000730C31 /* CategoryTableViewCell.swift in Sources */,
+				3B83EE2527BF9D720093E3E6 /* ItemDetailViewController.swift in Sources */,
+				3B48136327BE29010074DB5B /* Item+Convenience.swift in Sources */,
+				3B48136627BE2AF10074DB5B /* CategoryController.swift in Sources */,
 				3B48134327BE24ED0074DB5B /* AppDelegate.swift in Sources */,
 				3B48134527BE24ED0074DB5B /* SceneDelegate.swift in Sources */,
+				3B83EE2327BF65F50093E3E6 /* ItemInCategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +500,7 @@
 		};
 		3B48135727BE24EE0074DB5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A2F6DBDC2812AD69E0740D /* Pods-ToDoJournal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,10 +508,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoJournal/Info.plist;
+				INFOPLIST_FILE = ToDoJournal/Resources/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,12 +524,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3B48135827BE24EE0074DB5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B65E69D0731B023A0B21C4 /* Pods-ToDoJournal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,10 +538,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoJournal/Info.plist;
+				INFOPLIST_FILE = ToDoJournal/Resources/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
